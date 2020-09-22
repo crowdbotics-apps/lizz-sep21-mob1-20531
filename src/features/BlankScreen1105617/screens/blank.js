@@ -38,7 +38,7 @@ export class _Blank extends React.Component {
         style={this.props.themedStyle.Button_3}
         onPress={() => alert("Pressed!")}
       >
-        Go to page 2
+        Go to page 0
       </Button>
       <Image
         resizeMode="contain"
