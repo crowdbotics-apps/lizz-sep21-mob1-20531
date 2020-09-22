@@ -26,6 +26,7 @@ export class _Blank extends React.Component {
 
   render = () => (
     <View style={this.props.themedStyle.View_1}>
+      <Text style={this.props.themedStyle.Text_31}>This is page 1</Text>
       <Button
         textStyle={{
           fontSize: 12,
@@ -37,7 +38,7 @@ export class _Blank extends React.Component {
         style={this.props.themedStyle.Button_3}
         onPress={() => alert("Pressed!")}
       >
-        Press me!
+        Go to page 2
       </Button>
       <Image
         resizeMode="contain"
@@ -81,6 +82,36 @@ export default Blank = withStyles(_Blank, theme => ({
     borderBottomWidth: 0,
     borderRadius: 0,
     backgroundSize: "auto"
+  },
+  Text_31: {
+    marginLeft: 0,
+    marginRight: 0,
+    marginTop: 5,
+    marginBottom: 5,
+    paddingLeft: 5,
+    paddingRight: 5,
+    paddingTop: 5,
+    paddingBottom: 5,
+    overflow: "visible",
+    fontSize: 12,
+    color: "#000000",
+    backgroundColor: "#ffffff",
+    fontStyle: "normal",
+    fontWeight: "normal",
+    borderColor: "#000000",
+    borderStyle: "solid",
+    borderWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomWidth: 0,
+    borderRadius: 0,
+    textAlign: "left",
+    textAlignVertical: "center",
+    textDecorationLine: "none",
+    textTransform: "none",
+    lineHeight: 12,
+    letterSpacing: 0
   },
   Button_3: {
     width: "100%",
